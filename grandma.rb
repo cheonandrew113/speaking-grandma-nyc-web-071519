@@ -1,6 +1,6 @@
 # Write a speak_to_grandma method.
 def speak_to_grandma(argument)
-  if argument.include?(upcase)
+  if argument.upcase
     return "I LOVE YOU TOO PUMPKIN!"
   else
     return "HUH?! SPEAK UP, SONNY!"
